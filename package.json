@@ -1,7 +1,8 @@
 {
-  "name": "primer-desafio",
+  "name": "desafios",
   "private": true,
   "version": "0.0.0",
+  "main": "apps.js",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -9,6 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "express": "^4.19.2",
     "solid-js": "^1.7.8"
   },
   "devDependencies": {
